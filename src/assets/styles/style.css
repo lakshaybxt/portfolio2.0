@@ -64,8 +64,18 @@ body {
 	color: #00B85A;
 }
 
+.header-right .nav-list li a {
+	transition: color 0.3s ease;
+}
+
 .header-right .nav-list .home {
 	border-bottom: solid 2px;
+	color: #00B85A;
+}
+
+.header-right .nav-list .home a:hover,
+.header-right .nav-list .projects a:hover,
+.header-right .nav-list .blog a:hover {
 	color: #00B85A;
 }
 
@@ -200,6 +210,8 @@ body {
 	min-width: 1000px;
 	width: 100%;
 	height: auto;
+	user-select: none;
+	pointer-events: none;
 }
 
 .projects-section h2 {
@@ -224,9 +236,19 @@ body {
 	border-radius: 10px;
 }
 
+.project-grid .project-card {
+	transition: transform 0.3s ease;
+}
+
+.project-grid .project-card:hover {
+	transform:scale(0.99);
+}
+
 .project-info h2 {
 	font-weight: 400;
 	font-size: 1rem;
+	margin: 0;
+	margin-top: 8px;
 }
 
 .project-info .stack {
@@ -250,6 +272,11 @@ body {
 	align-items: center;
 	gap: 8px;
 	margin-right: 12px;
+	transition: color 0.3 ease;
+}
+
+.project-links a:hover {
+	color: #16e379;
 }
 
 @media (max-width: 750px) {
@@ -272,6 +299,11 @@ body {
 	margin-top: 40px;
 }
 
+.blog-container {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
 
 .blog-card {
 	display: flex;
@@ -297,14 +329,19 @@ body {
 	transform:scale(1.1);
 }
 
-.blog-content h3 {
+.blog-content a {
+	text-decoration: none;
+}
+
+.blog-content a h3 {
 	font-size: 0.95rem;
 	font-weight: 400;
 	margin: 0;
+	color: white;
 	transition: color 0.3 ease;
 }
 
-.blog-content h3:hover {
+.blog-content a h3:hover {
 	color: #00B85A;
 }
 
@@ -349,3 +386,9 @@ body {
 .blog-content .blog-tags a:hover {
 	color: #08984e;
 } 
+
+.experience-section h2 {
+	font-weight: 500;
+	font-size: 1.1rem;
+	margin-top: 40px;
+}

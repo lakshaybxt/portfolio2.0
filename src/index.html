@@ -10,6 +10,7 @@
 
 	<title>Hi I'm Lakshay</title>
 	<link rel="stylesheet" href="./assets/styles/style.css">
+	<link rel="shortcut icon" href="./assets/images/l.png" type="l/x-icon">
 </head>
 <body>
 	<div class="container">
@@ -286,7 +287,26 @@
 		<section class="experience-section">
 			<h2>Experience</h2>
 
-			<div class="job-card">
+			<div class="timeline-container">
+				<div class="timeline-line" aria-hidden="true"></div>
+				<div class="timeline-items">
+
+					<div class="timeline-item">
+						<span class="timeline-dot sky"></span>
+						<h3 class="job-title">Java Developer - Cognivinta</h3>
+						<p class="job-duration">Aug 2025 - Present <span>(Mohali, India) </span> </p>
+					</div>
+
+					<div class="timeline-item">
+						<span class="timeline-dot fuchsia"></span>
+						<h3 class="job-title">Back-end Developer - Gametosa</h3>
+						<p class="job-duration">Apr 2025 - Aug 2025 <span>(Delhi, India) </span> </p>
+					</div>
+
+				</div>
+			</div>
+
+			<!-- <div class="job-card">
 				<div class="job-details">
 					<h3>
 						Java Developer
@@ -303,7 +323,7 @@
 						</ul>
 					</h3>
 				</div>
-			</div>
+			</div> -->
 		</section>
 
 		<section class="projects-section">
@@ -446,29 +466,89 @@
 
 		<section class="blog-section">
 			<h2>Most recent posts</h2>
-			<div href="#" class="blog-card">
-				<div class="blog-image">
-					<img src="./assets/images/image.png" alt="Blog Thumbnail"/>
-				</div>
-				<div class="blog-content">
-					<h3>My Journey Building Apps</h3>
-					<div class="blog-meta">
-						<div class="time">
-							<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-calendar size-3" aria-hidden="true"><path d="M8 2v4"></path><path d="M16 2v4"></path><rect width="18" height="18" x="3" y="4" rx="2"></rect><path d="M3 10h18"></path></svg>
-							<time>December 27, 2025</time>
-						</div>
-						<div class="read">
-							<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-timer size-3" aria-hidden="true"><line x1="10" x2="14" y1="2" y2="2"></line><line x1="12" x2="15" y1="14" y2="11"></line><circle cx="12" cy="14" r="8"></circle></svg>
-							<span>2 min read</span>
-						</div>
+			<div class="blog-container">
+
+				<div class="blog-card">
+					<div class="blog-image">
+						<img src="./assets/images/image.png" alt="Blog Thumbnail"/>
 					</div>
-					<p class="description">I decided to attempt the 023: Take Daytona for a spin challenge and in this blog, I will be sharing my experience with Daytona.</p>
-					<ul class="blog-tags">
-						<li><a href="#">#webdev</a></li>
-						<li><a href="#">#springboot</a></li>
-						<li><a href="#">#react</a></li>
-					</ul>
+					<div class="blog-content">
+						<a href="#">
+							<h3>My Journey Building Apps</h3>
+						</a>
+						<div class="blog-meta">
+							<div class="time">
+								<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-calendar size-3" aria-hidden="true"><path d="M8 2v4"></path><path d="M16 2v4"></path><rect width="18" height="18" x="3" y="4" rx="2"></rect><path d="M3 10h18"></path></svg>
+								<time>December 27, 2025</time>
+							</div>
+							<div class="read">
+								<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-timer size-3" aria-hidden="true"><line x1="10" x2="14" y1="2" y2="2"></line><line x1="12" x2="15" y1="14" y2="11"></line><circle cx="12" cy="14" r="8"></circle></svg>
+								<span>2 min read</span>
+							</div>
+						</div>
+						<p class="description">I decided to attempt the 023: Take Daytona for a spin challenge and in this blog, I will be sharing my experience with Daytona.</p>
+						<ul class="blog-tags">
+							<li><a href="#">#webdev</a></li>
+							<li><a href="#">#springboot</a></li>
+							<li><a href="#">#react</a></li>
+						</ul>
+					</div>
 				</div>
+
+				<div class="blog-card">
+					<div class="blog-image">
+						<img src="./assets/images/image.png" alt="Blog Thumbnail"/>
+					</div>
+					<div class="blog-content">
+						<a href="#">
+							<h3>My Journey Building Apps</h3>
+						</a>
+						<div class="blog-meta">
+							<div class="time">
+								<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-calendar size-3" aria-hidden="true"><path d="M8 2v4"></path><path d="M16 2v4"></path><rect width="18" height="18" x="3" y="4" rx="2"></rect><path d="M3 10h18"></path></svg>
+								<time>December 27, 2025</time>
+							</div>
+							<div class="read">
+								<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-timer size-3" aria-hidden="true"><line x1="10" x2="14" y1="2" y2="2"></line><line x1="12" x2="15" y1="14" y2="11"></line><circle cx="12" cy="14" r="8"></circle></svg>
+								<span>2 min read</span>
+							</div>
+						</div>
+						<p class="description">I decided to attempt the 023: Take Daytona for a spin challenge and in this blog, I will be sharing my experience with Daytona.</p>
+						<ul class="blog-tags">
+							<li><a href="#">#webdev</a></li>
+							<li><a href="#">#springboot</a></li>
+							<li><a href="#">#react</a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="blog-card">
+					<div class="blog-image">
+						<img src="./assets/images/image.png" alt="Blog Thumbnail"/>
+					</div>
+					<div class="blog-content">
+						<a href="#">
+							<h3>My Journey Building Apps</h3>
+						</a>
+						<div class="blog-meta">
+							<div class="time">
+								<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-calendar size-3" aria-hidden="true"><path d="M8 2v4"></path><path d="M16 2v4"></path><rect width="18" height="18" x="3" y="4" rx="2"></rect><path d="M3 10h18"></path></svg>
+								<time>December 27, 2025</time>
+							</div>
+							<div class="read">
+								<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-timer size-3" aria-hidden="true"><line x1="10" x2="14" y1="2" y2="2"></line><line x1="12" x2="15" y1="14" y2="11"></line><circle cx="12" cy="14" r="8"></circle></svg>
+								<span>2 min read</span>
+							</div>
+						</div>
+						<p class="description">I decided to attempt the 023: Take Daytona for a spin challenge and in this blog, I will be sharing my experience with Daytona.</p>
+						<ul class="blog-tags">
+							<li><a href="#">#webdev</a></li>
+							<li><a href="#">#springboot</a></li>
+							<li><a href="#">#react</a></li>
+						</ul>
+					</div>
+				</div>
+
 			</div>
 		</section>
 
