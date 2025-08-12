@@ -25,7 +25,7 @@ body {
 .container {
   max-width: 900px; 
   margin: 0 auto; 
-  padding: 20px;
+  padding: 25px;
 }
 
 .header {
@@ -578,4 +578,10 @@ body {
 
 .footer .profile a:hover {
 	color: #fff;
+}
+
+@media (max-width: 550px) {
+    .footer .profile {
+    display: none;
+  }
 }
