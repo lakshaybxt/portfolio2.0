@@ -133,6 +133,8 @@ body {
 .tools-section h2 {
 	font-weight: 500;
 	font-size: 1.1rem;
+	margin-top: 20px;
+	margin-bottom: 30px;
 }
 
 .tools-list {
@@ -199,4 +201,40 @@ body {
 .projects-section h2 {
 	font-weight: 500;
 	font-size: 1.1rem;
+}
+
+.project-grid .project-card {
+	max-width: 450px;
+}
+
+.project-grid .project-card img {
+	max-width: 100%;
+	
+}
+
+.project-info h2 {
+	font-weight: 400;
+	font-size: 1rem;
+}
+
+.project-info .stack {
+	font-weight: 400;
+	font-size: 0.75rem;
+	color: #00B85A;
+}
+
+.project-info .description {
+	font-weight: 400;
+	font-size: 0.75rem;
+	color: #c4c4c4;
+}
+
+.project-links a {
+	color: #00B85A;
+	text-decoration: none;
+	font-weight: 400;
+	font-size: 0.8rem;
+	display: inline-flex;
+	gap: 8px;
+	margin-right: 12px;
 }
